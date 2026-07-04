@@ -1,43 +1,64 @@
-# calculadora_y_gestor_de_estudiantes
-Calculadora y Gestor de Estudiantes
-# Calculadora y Gestor de Estudiantes
+**Mi Proyecto de Calculadora y Gestor de Estudiantes**
+**¿Qué hace este programa?**
+Este es mi proyecto para la clase de JavaScript. Hice una aplicación que hace dos cosas principales:
 
-¡Hola! Bienvenido a mi proyecto. Esta es una aplicación interactiva que diseñé para ejecutarse directamente en la consola del navegador web. La creé como parte de mi aprendizaje en los fundamentos de programación con JavaScript, aplicando estructuras de control, funciones y manejo de arreglos de una manera sencilla y directa.
+Una calculadora básica que suma, resta, multiplica y divide
 
-El objetivo principal de este proyecto es consolidar conceptos básicos sin complicar el código con arquitecturas avanzadas, haciéndolo ideal para repasar las bases de la programación.
+Un gestor de estudiantes donde puedo guardar nombres, edades y notas
 
-Tecnologías utilizadas
+**¿Cómo funciona?**
+Cuando abres el programa, te sale un menú con números. Solo tienes que escribir el número de lo que quieras hacer.
 
-JavaScript: Toda la lógica del programa, variables, bucles y funciones.
-Consola del Navegador: El entorno de ejecución donde se muestran los resultados.
-Ventanas Emergentes (`prompt` y `alert`): El medio para interactuar con el usuario y recibir datos.
+**Las opciones del menú:**
+Opción 1: Calculadora - pongo dos números y elijo la operación
 
-Características principales
+Opción 2: Agregar estudiante - guardo nombre, edad y nota
 
-El programa cuenta con un menú interactivo que se repite hasta que decidas salir, ofreciendo las siguientes opciones:
+Opción 3: Ver todos los estudiantes - muestra la lista completa
 
-1. **Calculadora Básica**: Realiza sumas, restas, multiplicaciones y divisiones. Cuenta con una validación simple para evitar la división por cero y guarda un registro de las operaciones realizadas.
-2. **Gestión de Estudiantes**: Permite registrar alumnos ingresando su nombre, edad y nota. Los datos se almacenan en arreglos paralelos para facilitar su lectura.
-3. **Reportes por Consola**: 
-   * Muestra la lista completa de estudiantes registrados junto con su estado (Aprobado/Reprobado).
-   * Filtra y muestra únicamente a los estudiantes que obtuvieron una nota mayor o igual a 6.
-   * Calcula de forma automática el promedio general de todas las notas ingresadas.
-4. **Historial**: Permite revisar en la consola todas las operaciones matemáticas que has hecho durante la sesión.
+Opción 4: Ver aprobados - solo muestra los que tienen nota sobre 6
 
-Cómo ejecutar el proyecto
+Opción 5: Calcular promedio - saca el promedio de todas las notas
 
-Para probar la aplicación no necesitas instalar nada, solo sigue estos sencillos pasos:
+Opción 6: Ver historial - muestra las operaciones que hice en la calculadora
 
-1. Copia todo el código del archivo `index.js` (o el archivo principal).
-2. Abre tu navegador web favorito (Google Chrome, Firefox, Edge, etc.).
-3. Abre las herramientas de desarrollador presionando `F12` o haciendo clic derecho y seleccionando **Inspeccionar**.
-4. Ve a la pestaña **Consola** (Console).
-5. Pega el código que copiaste y presiona `Enter`.
-6. ¡Listo! El menú interactivo aparecerá en tu pantalla. *(Asegúrate de mirar la consola para ver los resultados de las listas y los historiales)*.
+Opción 7: Salir - cierra el programa
 
-Lo que aprendí con este código
+¿Cómo lo uso?
+Abro el archivo en el navegador
 
-* A estructurar un menú interactivo usando el bucle `while`.
-* A conectar diferentes funciones para procesar datos matemáticos y textos de forma ordenada.
-* El uso de condicionales con `if` y `else if` para la toma de decisiones del programa.
-* El manejo de arreglos (arreglos paralelos compartiendo el índice `[i]`) y cómo recorrerlos mediante el bucle `for` clásico.
+Abro la consola (F12 en Chrome)
+
+El programa arranca solo y me muestra el menú
+
+Elijo una opción escribiendo el número
+
+**Cosas que aprendí haciendo esto:**
+Usar const para variables que no cambian (como el nombre de la app)
+
+Usar let para variables que sí cambian (como el contador en los bucles)
+
+Guardar información en arreglos (listas)
+
+Hacer bucles for para recorrer listas
+
+Usar if y else para tomar decisiones
+
+Crear funciones para organizar el código
+
+Cosas que me costaron trabajo:
+Entender cómo funcionan los arreglos al principio
+
+No olvidar los () en los llamados a funciones
+
+El return en las funciones de la calculadora
+
+El parseInt y parseFloat para convertir lo que escribe el usuario
+
+**Nota importante:**
+En este proyecto usé const para la mayoría de mis variables porque así me pidieron. Aprendí que const no puede cambiar su valor, pero si es un arreglo sí puedo agregar o quitar elementos.
+
+**El código:**
+El código está en el archivo script.js. Es todo un solo archivo porque así es más fácil de entender para mí.
+
+**Este proyecto lo hice para aprender JavaScript. Sé que no es perfecto pero lo entiendo y puedo explicarlo.**
